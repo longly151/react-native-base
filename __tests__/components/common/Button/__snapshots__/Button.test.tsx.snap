@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<View
+  style={
+    Array [
+      Array [
+        Object {},
+        Object {
+          "elevation": 4,
+          "height": undefined,
+          "justifyContent": "center",
+          "overflow": "visible",
+          "width": undefined,
+        },
+      ],
+    ]
+  }
+  testID="ContainerView"
+>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={false}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "flexGrow": undefined,
+        "opacity": 1,
+      }
+    }
+    testID="Touchable"
+  >
+    <View
+      style={
+        Array [
+          Array [
+            Object {},
+            Object {
+              "backgroundColor": "#219EE5",
+              "borderRadius": 8,
+              "flexDirection": "row",
+              "justifyContent": "center",
+            },
+          ],
+        ]
+      }
+      testID="TouchableView"
+    />
+  </View>
+</View>
+`;

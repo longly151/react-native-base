@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "27482555998",
+    "project_id": "rnbase-360ae",
+    "storage_bucket": "rnbase-360ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27482555998:android:803e2a4e0b31174472d6cf",
+        "android_client_info": {
+          "package_name": "com.demo.rnbase.development"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27482555998-cnbr36c6e9t9np0emffr837d6qa6t6nh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcWEPbWnXHFS_g7J30NPf94JPkULyTqAg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "27482555998-cnbr36c6e9t9np0emffr837d6qa6t6nh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "27482555998-9bpr49d5ksn35rheddjg9fnljvpf5gh7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.demo.rnbase.dev"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<RCTSwitch
+  accessibilityRole="switch"
+  onChange={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  onTintColor="#219EE5"
+  style={
+    Array [
+      Object {
+        "height": 31,
+        "width": 51,
+      },
+      Array [
+        Object {},
+        Object {
+          "backgroundColor": "#bdc6cf",
+          "borderRadius": 16,
+        },
+      ],
+    ]
+  }
+  testID="Switch"
+  thumbTintColor="white"
+  tintColor="#bdc6cf"
+  value={false}
+/>
+`;

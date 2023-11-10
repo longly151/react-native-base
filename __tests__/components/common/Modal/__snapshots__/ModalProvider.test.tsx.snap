@@ -1,0 +1,674 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<Modal
+  animationType="none"
+  deviceHeight={null}
+  deviceWidth={null}
+  hardwareAccelerated={false}
+  hideModalContentWhileAnimating={false}
+  onBackdropPress={[Function]}
+  onModalHide={[Function]}
+  onModalWillHide={[Function]}
+  onModalWillShow={[Function]}
+  onRequestClose={[Function]}
+  panResponderThreshold={4}
+  scrollHorizontal={false}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  statusBarTranslucent={true}
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  testID="ModalProvider"
+  transparent={true}
+  visible={false}
+/>
+`;
+
+exports[`should show alert modal correctly 1`] = `
+<View
+  close={[Function]}
+  style={
+    Object {
+      "alignSelf": "center",
+      "backgroundColor": "#ffffff",
+      "borderRadius": 8,
+      "height": undefined,
+      "justifyContent": "center",
+      "padding": 16,
+      "width": 710,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#219EE5",
+          "fontFamily": "GoogleSans-Regular",
+        },
+        Array [
+          Object {
+            "fontSize": 20,
+            "fontWeight": "600",
+            "lineHeight": 28,
+            "marginBottom": 4,
+            "marginTop": 4,
+            "textAlign": "center",
+          },
+          undefined,
+        ],
+      ]
+    }
+    testID="TitleText"
+  >
+    Confirmation
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#393e42",
+          "fontFamily": "GoogleSans-Regular",
+        },
+        Array [
+          Object {
+            "fontSize": 16,
+            "lineHeight": 24,
+            "marginBottom": 4,
+            "marginTop": 4,
+            "textAlign": "center",
+          },
+          undefined,
+        ],
+      ]
+    }
+    testID="DescriptionText"
+  >
+    Are you sure you want to log out?
+  </Text>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row-reverse",
+        "justifyContent": "space-between",
+        "paddingVertical": 16,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Array [
+            Object {},
+            Object {
+              "elevation": 4,
+              "flexGrow": 1,
+              "height": undefined,
+              "justifyContent": "center",
+              "overflow": "visible",
+              "width": 330,
+            },
+          ],
+        ]
+      }
+      testID="ContainerView"
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "flexGrow": undefined,
+            "opacity": 1,
+          }
+        }
+        testID="CancelButton"
+      >
+        <View
+          style={
+            Array [
+              Array [
+                Object {},
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#219EE5",
+                  "borderRadius": 8,
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "width": 330,
+                },
+              ],
+            ]
+          }
+          testID="TouchableView"
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "alignSelf": "center",
+                  "color": "white",
+                  "fontFamily": "GoogleSans-Regular",
+                  "fontSize": 18,
+                  "fontWeight": "500",
+                  "margin": 12,
+                  "opacity": 1,
+                  "textAlign": "center",
+                },
+                Object {},
+                undefined,
+              ]
+            }
+            testID="ButtonTitleText"
+          >
+            Cancel
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Array [
+            Object {},
+            Object {
+              "elevation": 0,
+              "flexGrow": 1,
+              "height": undefined,
+              "justifyContent": "center",
+              "overflow": "visible",
+              "width": 331,
+            },
+          ],
+        ]
+      }
+      testID="ContainerView"
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "flexGrow": undefined,
+            "opacity": 1,
+          }
+        }
+        testID="OkButton"
+      >
+        <View
+          style={
+            Array [
+              Array [
+                Object {},
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "transparent",
+                  "borderColor": "#219EE5",
+                  "borderRadius": 8,
+                  "borderWidth": 1,
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "width": 330,
+                },
+              ],
+            ]
+          }
+          testID="TouchableView"
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "alignSelf": "center",
+                  "color": "white",
+                  "fontFamily": "GoogleSans-Regular",
+                  "fontSize": 18,
+                  "fontWeight": "500",
+                  "margin": 12,
+                  "opacity": 1,
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "#219EE5",
+                },
+                undefined,
+              ]
+            }
+            testID="ButtonTitleText"
+          >
+            Logout
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`should show alert modal correctly 2`] = `
+<View
+  close={[Function]}
+  style={
+    Object {
+      "alignSelf": "center",
+      "backgroundColor": "#ffffff",
+      "borderRadius": 8,
+      "justifyContent": "center",
+      "paddingHorizontal": 28,
+      "paddingVertical": 20,
+    }
+  }
+>
+  <ActivityIndicator
+    color="#219EE5"
+    size="large"
+    style={
+      Array [
+        Array [
+          Object {
+            "marginTop": 4,
+          },
+          undefined,
+        ],
+        Object {
+          "display": "flex",
+        },
+      ]
+    }
+    testID="Loading"
+  />
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#219EE5",
+          "fontFamily": "GoogleSans-Regular",
+        },
+        Array [
+          Object {
+            "fontSize": 18,
+            "fontWeight": "700",
+            "lineHeight": 28,
+            "marginBottom": 4,
+            "marginTop": 4,
+            "textAlign": "center",
+          },
+          undefined,
+        ],
+      ]
+    }
+    testID="Text"
+  >
+    Loading
+  </Text>
+</View>
+`;
+
+exports[`should show alert modal correctly 3`] = `
+<View
+  close={[Function]}
+  style={
+    Object {
+      "alignSelf": "center",
+      "backgroundColor": "#ffffff",
+      "borderRadius": 8,
+      "height": undefined,
+      "justifyContent": "center",
+      "padding": 16,
+      "width": 710,
+    }
+  }
+>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      Array [
+        Object {
+          "color": "#34BFA3",
+          "fontSize": 50,
+        },
+        Array [
+          Array [
+            Object {
+              "alignSelf": "center",
+              "marginBottom": 8,
+              "marginTop": 8,
+            },
+            Object {
+              "transform": Array [
+                Object {
+                  "rotateZ": "-5deg",
+                },
+              ],
+            },
+          ],
+        ],
+        Object {
+          "fontFamily": "anticon",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+    testID="SuccessIcon"
+  >
+    
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#393e42",
+          "fontFamily": "GoogleSans-Regular",
+        },
+        Array [
+          Object {
+            "fontSize": 20,
+            "fontWeight": "600",
+            "lineHeight": 28,
+            "marginBottom": 4,
+            "marginTop": 4,
+            "textAlign": "center",
+          },
+          undefined,
+        ],
+      ]
+    }
+    testID="TitleText"
+  >
+    Submission successful
+  </Text>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "paddingVertical": 16,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Array [
+            Object {},
+            Object {
+              "elevation": 4,
+              "flexGrow": 0,
+              "height": undefined,
+              "justifyContent": "center",
+              "overflow": "visible",
+              "width": 660,
+            },
+          ],
+        ]
+      }
+      testID="ContainerView"
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "flexGrow": undefined,
+            "opacity": 1,
+          }
+        }
+        testID="OkButton"
+      >
+        <View
+          style={
+            Array [
+              Array [
+                Object {},
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#219EE5",
+                  "borderRadius": 8,
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "width": 660,
+                },
+              ],
+            ]
+          }
+          testID="TouchableView"
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "alignSelf": "center",
+                  "color": "white",
+                  "fontFamily": "GoogleSans-Regular",
+                  "fontSize": 18,
+                  "fontWeight": "500",
+                  "margin": 12,
+                  "opacity": 1,
+                  "textAlign": "center",
+                },
+                Object {},
+                undefined,
+              ]
+            }
+            testID="ButtonTitleText"
+          >
+            OK
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`should show alert modal correctly 4`] = `
+<View
+  close={[Function]}
+  style={
+    Object {
+      "alignSelf": "center",
+      "backgroundColor": "#ffffff",
+      "borderRadius": 8,
+      "height": undefined,
+      "justifyContent": "center",
+      "padding": 16,
+      "width": 710,
+    }
+  }
+>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      Array [
+        Object {
+          "color": "#F4516C",
+          "fontSize": 50,
+        },
+        Array [
+          Array [
+            Object {
+              "alignSelf": "center",
+              "marginBottom": 8,
+              "marginTop": 8,
+            },
+            Object {
+              "transform": Array [
+                Object {
+                  "rotateZ": "-5deg",
+                },
+              ],
+            },
+          ],
+        ],
+        Object {
+          "fontFamily": "anticon",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+    testID="ErrorIcon"
+  >
+    
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#393e42",
+          "fontFamily": "GoogleSans-Regular",
+        },
+        Array [
+          Object {
+            "fontSize": 20,
+            "fontWeight": "600",
+            "lineHeight": 28,
+            "marginBottom": 4,
+            "marginTop": 4,
+            "textAlign": "center",
+          },
+          undefined,
+        ],
+      ]
+    }
+    testID="TitleText"
+  >
+    Submission failed
+  </Text>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "paddingVertical": 16,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Array [
+            Object {},
+            Object {
+              "elevation": 4,
+              "flexGrow": 0,
+              "height": undefined,
+              "justifyContent": "center",
+              "overflow": "visible",
+              "width": 660,
+            },
+          ],
+        ]
+      }
+      testID="ContainerView"
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "flexGrow": undefined,
+            "opacity": 1,
+          }
+        }
+        testID="OkButton"
+      >
+        <View
+          style={
+            Array [
+              Array [
+                Object {},
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#219EE5",
+                  "borderRadius": 8,
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "width": 660,
+                },
+              ],
+            ]
+          }
+          testID="TouchableView"
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "alignSelf": "center",
+                  "color": "white",
+                  "fontFamily": "GoogleSans-Regular",
+                  "fontSize": 18,
+                  "fontWeight": "500",
+                  "margin": 12,
+                  "opacity": 1,
+                  "textAlign": "center",
+                },
+                Object {},
+                undefined,
+              ]
+            }
+            testID="ButtonTitleText"
+          >
+            OK
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`should show modal correctly 1`] = `
+<View
+  close={[Function]}
+  testID="ModalContent"
+/>
+`;

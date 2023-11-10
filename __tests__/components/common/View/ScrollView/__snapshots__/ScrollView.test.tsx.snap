@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<RCTScrollView
+  style={
+    Array [
+      Array [
+        Object {},
+        undefined,
+      ],
+    ]
+  }
+  testID="ScrollView"
+>
+  <View />
+</RCTScrollView>
+`;

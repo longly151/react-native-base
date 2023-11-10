@@ -1,0 +1,44 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "cSpell.words": [
+    "aftermake",
+    "bottomtab",
+    "checkcircle",
+    "closecircle",
+    "datetimepicker",
+    "extralight",
+    "FASTLANE",
+    "firestore",
+    "Fontisto",
+    "Keychain",
+    "nativewind",
+    "netinfo",
+    "persistor",
+    "premake",
+    "reduxjs",
+    "rnbase",
+    "Roboto",
+    "semibold",
+    "Unfocus",
+    "unfocusing"
+  ],
+  "i18n-ally.localesPaths": [
+    "src/containers/locales",
+    "ios/Pods/Flipper-Folly/folly/lang",
+    "ios/Pods/Flipper-Boost-iOSX/boost/locale",
+    "ios/Pods/RCT-Folly/folly/lang",
+    "ios/Pods/boost/boost/locale",
+    "ios/Pods/Flipper-Boost-iOSX/boost/predef/language",
+    "ios/Pods/boost/boost/predef/language",
+    "ios/Pods/Headers/Private/RCT-Folly/folly/lang",
+    "ios/Pods/Headers/Private/Flipper-Folly/folly/lang",
+    "ios/Pods/Headers/Public/Flipper-Folly/folly/lang",
+    "ios/Pods/Headers/Public/RCT-Folly/folly/lang"
+  ],
+  "i18next.i18nPaths": "/Users/Vilagon/RNBase/src/core/locales,/Users/Vilagon/RNBase/ios/Pods/Flipper-Boost-iOSX/boost/locale,/Users/Vilagon/RNBase/ios/Pods/Flipper-Folly/folly/lang,/Users/Vilagon/RNBase/ios/Pods/RCT-Folly/folly/lang,/Users/Vilagon/RNBase/ios/Pods/boost/boost/locale,/Users/Vilagon/RNBase/ios/Pods/Headers/Public/Flipper-Folly/folly/lang,/Users/Vilagon/RNBase/ios/Pods/Headers/Public/RCT-Folly/folly/lang,/Users/Vilagon/RNBase/ios/Pods/Headers/Private/Flipper-Folly/folly/lang,/Users/Vilagon/RNBase/ios/Pods/Headers/Private/RCT-Folly/folly/lang",
+  "i18n-ally.keystyle": "nested"
+}

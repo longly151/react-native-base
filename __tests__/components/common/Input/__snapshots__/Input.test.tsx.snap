@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<View
+  style={Object {}}
+  testID="ContainerView"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#e1e8ee",
+          "borderRadius": 8,
+          "flexDirection": "row",
+        },
+        Object {
+          "borderColor": "#C3D1DD",
+        },
+      ]
+    }
+    testID="InputView"
+  >
+    <TextInput
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      onFocus={[Function]}
+      onSubmitEditing={[Function]}
+      placeholderTextColor="#86939e"
+      style={
+        Object {
+          "color": "#000000",
+          "flexDirection": "row",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "fontSize": 16,
+          "overflow": "hidden",
+          "padding": 10,
+        }
+      }
+      testID="Input"
+      underlineColorAndroid="transparent"
+    />
+  </View>
+</View>
+`;

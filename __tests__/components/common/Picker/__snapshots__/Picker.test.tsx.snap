@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={Object {}}
+    testID="ContainerView"
+  >
+    <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#e1e8ee",
+          "borderColor": "#C3D1DD",
+          "borderRadius": 8,
+          "flexDirection": "row",
+          "opacity": 1,
+        }
+      }
+      testID="PickerButton"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontFamily": "GoogleSans-Regular",
+            },
+            Array [
+              Object {},
+              Array [
+                Object {
+                  "color": "#000000",
+                  "flexDirection": "row",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "fontSize": 16,
+                  "overflow": "hidden",
+                  "padding": 10,
+                },
+                Object {
+                  "color": "#86939e",
+                },
+              ],
+            ],
+          ]
+        }
+        testID="OptionText"
+      />
+    </View>
+  </View>
+</View>
+`;

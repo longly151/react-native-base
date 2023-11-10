@@ -1,0 +1,21 @@
+/* 
+  InfoPlist.strings
+  RNBase
+
+  Created by Vilagon on 12/09/2022.
+  
+*/
+
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "Truy cập Vị trí";
+
+"NSLocationAlwaysUsageDescription" = "Truy cập Vị trí";
+
+"NSLocationWhenInUseUsageDescription" = "Truy cập Vị trí";
+
+"NSCameraUsageDescription" = "Truy cập Camera";
+
+"NSPhotoLibraryAddUsageDescription" = "YOUR TEXT";
+
+"NSPhotoLibraryUsageDescription" = "Truy cập Thư viện";
+
+"NSMicrophoneUsageDescription" = "YOUR TEXT";

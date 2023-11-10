@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Array [
+      Array [
+        Object {
+          "flex": 1,
+        },
+        Array [
+          Object {},
+          undefined,
+        ],
+      ],
+      Object {
+        "paddingBottom": 0,
+      },
+    ]
+  }
+  testID="KeyboardAvoidingScrollView"
+>
+  <RCTScrollView>
+    <View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+      />
+    </View>
+  </RCTScrollView>
+</View>
+`;

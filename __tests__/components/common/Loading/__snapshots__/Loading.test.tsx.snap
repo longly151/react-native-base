@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<ActivityIndicator
+  color="#219EE5"
+  style={
+    Array [
+      Array [
+        Object {},
+        undefined,
+      ],
+      Object {
+        "display": "flex",
+      },
+    ]
+  }
+  testID="Loading"
+/>
+`;
